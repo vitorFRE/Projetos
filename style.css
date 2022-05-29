@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap");
+
+/* reset */
+body {
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h3,
+h4,
+p,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+/* css */
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  border-bottom: 2px solid #04c35c;
+}
+
+.header img {
+  width: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  align-items: center;
+  color: white;
+}
+
+.header h1 {
+  position: relative;
+}
+
+.header h1::before {
+  content: "MY";
+  color: #04c35c;
+  position: absolute;
+  transform: rotate(-15deg);
+  top: -15px;
+  left: -10px;
+}
+
+.main-text {
+  margin-top: 50px;
+}
+
+.main-text h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 39px;
+}
+
+.main-text h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 36px;
+  color: #04c35c;
+}
+
+.main-text p {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  color: #b8b8b8;
+  font-weight: bold;
+}
+
+ul {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 400px;
+  height: 350px;
+  background: linear-gradient(
+    180deg,
+    #044421 0%,
+    rgba(0, 0, 0, 0) 100%,
+    #04d361 100%
+  );
+  border: 2px solid #04c35c;
+  border-radius: 10px;
+}
+
+li img {
+  max-width: 370px;
+  max-height: 215px;
+  width: auto;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+li h1 {
+  margin: 20px 0px 20px 10px;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: none;
+  border: 2px solid #04c35c;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+li a:hover {
+  box-shadow: 0px 0px 29px 0px #04c35c;
+}
+
+.demo {
+  background-color: #04c35c;
+}
+
+.demo:hover {
+  color: black;
+  transition: 1s;
+}

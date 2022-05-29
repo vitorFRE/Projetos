@@ -1,0 +1,9 @@
+@import url(./gb.css);
+/* Home */
+@import url(./home/header.css);
+@import url(./home/introducao.css);
+@import url(./home/beneficios.css);
+@import url(./home/app.css);
+@import url(./home/planos.css);
+@import url(./home/contato.css);
+@import url(./home/footer.css);

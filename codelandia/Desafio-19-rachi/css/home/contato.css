@@ -1,0 +1,59 @@
+.contato-bg {
+  background-image: url(../../img/contato.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 383px;
+  margin-top: 50px;
+}
+.contato h1 {
+  padding-top: 50px;
+  text-align: center;
+  color: #fff;
+  font-family: Sora;
+  font-size: 40px;
+}
+
+.contato p {
+  color: #dbdbdb;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contato form {
+  text-align: center;
+  margin-top: 100px;
+}
+
+textarea,
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.contato form input {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+
+.cont-btn {
+  margin-left: 20px;
+  color: #fff;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 8px 32px;
+  background: #0f9afe;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.cont-btn:hover {
+  background: #0071c3;
+}

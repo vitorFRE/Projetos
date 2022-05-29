@@ -1,0 +1,90 @@
+@import url(./gb.css);
+
+.header-bg {
+  background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+  height: 250px;
+}
+
+.header-menu {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu h1,
+h2 {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.header input {
+  margin-top: 70px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 20px 0 20px 60px;
+  box-sizing: border-box;
+}
+.input {
+  position: relative;
+}
+.input i {
+  margin-top: 75px;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+input:focus {
+  border: 2px solid #574ae8;
+  outline: none;
+}
+
+.header input::placeholder {
+  font-family: Inter;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.blog-lista {
+  margin-top: 100px;
+}
+
+.blog {
+  margin-top: 50px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 25px 0 25px;
+}
+.data span {
+  font-family: Lexend Deca;
+  font-size: 1rem;
+  color: #717171;
+}
+
+.blog h1 {
+  padding: 10px 25px 0 25px;
+  font-size: 1, 625rem;
+  color: #1a202c;
+}
+
+.blog p {
+  font-family: Lexend Deca;
+  font-size: 18px;
+  color: #717171;
+  padding: 10px 25px 25px 25px;
+}
+
+.f {
+  margin-bottom: 50px;
+}

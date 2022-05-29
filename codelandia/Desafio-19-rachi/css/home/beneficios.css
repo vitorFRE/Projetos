@@ -1,0 +1,39 @@
+.beneficios h1 {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 2.5rem;
+  font-family: "Sora", sans-serif;
+  color: #293145;
+}
+
+.beneficios-lista {
+  justify-content: center;
+  display: flex;
+  gap: 100px;
+}
+.beneficios-lista ul {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.sub {
+  font-family: "Sora", sans-serif;
+  color: #293145;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.sub-desc {
+  color: #6e7275;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 700px) {
+  .beneficios-lista {
+    flex-wrap: wrap;
+  }
+}

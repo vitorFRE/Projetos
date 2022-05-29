@@ -1,0 +1,102 @@
+/*Variáveis*/
+:root {
+  --bgSite: #d7d4ff;
+  --buttonColor: #6c63ff;
+
+  --white: #ffffff;
+  --white300: #f9f9f9;
+
+  --title: #2b2b2b;
+  --text: #555555;
+}
+/* Cores */
+.c0 {
+  color: var(--bgSite);
+}
+.c1 {
+  color: var(--buttonColor);
+}
+.c2 {
+  color: var(--white);
+}
+.c3 {
+  color: var(--white300);
+}
+.c4 {
+  color: var(--title);
+}
+.c5 {
+  color: var(--text);
+}
+/* Cores lista */
+.d1 {
+  background: #ff6363;
+}
+.d2 {
+  background: #63ecff;
+}
+.d3 {
+  background: #f363ff;
+}
+.d4 {
+  background: #63ff73;
+}
+.d5 {
+  background: #ffdd63;
+}
+.d6 {
+  background: #6663ff;
+}
+
+/* Container */
+.container {
+  box-sizing: border-box;
+  max-width: 1300px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+button,
+input {
+  border: 0;
+}
+button:focus,
+input:focus {
+  border: 0;
+}

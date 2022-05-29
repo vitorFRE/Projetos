@@ -1,0 +1,41 @@
+.app-bg {
+  background: #eff8ff;
+}
+.app-text h1 {
+  font-family: Sora;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #293145;
+  padding-top: 115px;
+}
+.app-text p {
+  max-width: 55ch;
+  font-family: Inter;
+  color: #6e7275;
+  margin: 25px 0 30px 0;
+}
+.app-text-img img {
+  cursor: pointer;
+  transition: all 0.4s 0s ease;
+}
+
+.app-text-img img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.app-img img {
+  max-width: 100%;
+  transition: all 0.4s 0s ease;
+}
+
+.app-img img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}

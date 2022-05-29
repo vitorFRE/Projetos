@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/header-logo.svg" type="image/x-icon">
+    <title>Rachi</title>
+</head>
+
+<body>
+    <header class="header-bg">
+        <div class="header container">
+            <div class="header-logo">
+                <img src="./img/header-logo.svg" alt="Header-logo">
+                <a href="/">
+                    <h2>Rachi</h2>
+                </a>
+            </div>
+            <nav id="nav" class="nav-menu">
+                <button id="btn-mobile" class="btn-mobile">
+                    <span id="hamburger"></span>
+                </button>
+                <ul class="nav-menu-items">
+                    <li><a href="#func">Funcionalidades</a></li>
+                    <li><a href="#app">App</a></li>
+                    <li><a href="#plan">Planos</a></li>
+                    <li><a href="#con">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="intro-bg">
+        <div class="intro container">
+            <div data-anime="500" class="intro-text fadeInLeft">
+                <h1>Rachi,<br>é tudo que você<br>precisa em um só lugar.</h1>
+                <button>Cadastrar-se</button>
+            </div>
+            <div data-anime="1000" class="intro-img fadeInRight">
+                <img src="./img/intro-img.svg" alt="Trabalhe onde quiser">
+            </div>
+        </div>
+    </main>
+
+    <section id="func" class="beneficios container">
+        <h1>Como funciona</h1>
+        <div class="beneficios-lista">
+            <ul>
+                <li><img src="./img/conexoes.svg" alt="Conexões"></li>
+                <li class="sub">Crie conexões</li>
+                <li class="sub-desc">Lorem ipsum dolor sit amet,
+                    consecteteu.</li>
+            </ul>
+            <ul>
+                <li><img src="./img/gratuito.svg" alt="Conexões"></li>
+                <li class="sub">100% gratuito</li>
+                <li class="sub-desc">Lorem ipsum dolor sit amet,
+                    consecteteu.</li>
+            </ul>
+            <ul>
+                <li><img src="./img/happy.svg" alt="Conexões"></li>
+                <li class="sub">Compartilhamento</li>
+                <li class="sub-desc">Lorem ipsum dolor sit amet,
+                    consecteteu.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="app" class="app-bg">
+        <div class="app container">
+            <div class="app-text">
+                <h1>Baixe nosso app para desfrutar mais!</h1>
+                <p>Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis elementum amet vitae et etiam nec. Varius volutpat hac adipiscing tincidunt pretium.</p>
+                <div class="app-text-img">
+                    <img src="./img/googleplay.svg" alt="GooglePlay Download">
+                    <img src="./img/appstore.svg" alt="AppStore Download">
+                </div>
+            </div>
+            <div class="app-img">
+                <img src="./img/New notifications-amico 1.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="plan" class="container">
+        <div class="planos-titulo">
+            <h1>Nossos Planos</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+        </div>
+        <div class="planos-items">
+            <div class="planos-item">
+                <ul>
+                    <li class="bronze">Bronze</li>
+                    <li class="plano-data"><span class="plano-span">28</span>/mês</li>
+                    <li>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+                    </li>
+                </ul>
+                <div class="t">
+                    <button class="planos-btn">Assinar</button>
+                </div>
+            </div>
+
+            <div class="planos-item plano-dark">
+                <ul>
+                    <li class="prata">Prata</li>
+                    <li class="prefe">Prefirido</li>
+                    <li class="plano-data p"><span class="plano-span">28</span>/mês</li>
+                    <li>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+                    </li>
+                </ul>
+                <div class="t">
+                    <button class="planos-btn">Assinar</button>
+                </div>
+            </div>
+
+            <div class="planos-item">
+                <ul>
+                    <li class="ouro">Ouro</li>
+                    <li class="plano-data"><span class="plano-span">28</span>/mês</li>
+                    <li>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+                    </li>
+                </ul>
+                <div class="t">
+                    <button class="planos-btn">Assinar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="con" class="contato-bg">
+        <div class="contato">
+            <h1>contato</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Donec lacinia mi quis euismod ultrices.</p>
+            <form action="#">
+                <input placeholder="Seu E-mail" type="email" name="email">
+                <button class="cont-btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Rachi - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

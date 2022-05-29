@@ -1,0 +1,103 @@
+.planos-titulo h1 {
+  margin-top: 10px;
+  text-align: center;
+  font-family: Sora;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #293145;
+}
+.planos-titulo p {
+  font-family: Inter;
+  font-size: 1.125rem;
+  color: #6e7275;
+  text-align: center;
+  margin: 30px 0 95px 0;
+}
+
+.planos-items {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+}
+
+.planos-item {
+  background: #eff8ff;
+  border-radius: 8px;
+}
+.plano-dark {
+  background: #293145;
+}
+.planos-item ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bronze,
+.ouro,
+.prata {
+  color: #293145;
+  font-family: Sora;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 20px 0 50px 0;
+}
+
+.plano-data {
+  font-family: inter;
+  font-weight: bold;
+  font-size: 1.625rem;
+  color: #293145;
+}
+.prata,
+.p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.plano-span {
+  font-size: 3.125rem;
+}
+.plano-span::before {
+  content: "R$";
+  font-size: 20px;
+}
+.planos-item p {
+  margin-top: 45px;
+  font-family: Inter;
+  text-align: center;
+  font-size: 18px;
+  color: #6e7275;
+  max-width: 30ch;
+}
+.t {
+  text-align: center;
+}
+.planos-btn {
+  margin: 30px 0 30px 0;
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 8px 80px;
+  background: #0f9afe;
+  box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+  border-radius: 50px;
+}
+
+.planos-btn:hover {
+  background: #0071c3;
+}
+
+.prefe {
+  color: #fff;
+  font-family: Inter;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 32px;
+  background: #0f9afe;
+  border-radius: 15px;
+}

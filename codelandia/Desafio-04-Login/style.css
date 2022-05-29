@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700&display=swap");
+
+/* Container */
+.container {
+  box-sizing: border-box;
+  max-width: 1150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+button,
+input {
+  border: 0;
+}
+
+/* main */
+
+main {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+label {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  padding: 15px 20px;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  font-size: 26px;
+  color: #1a202c;
+  margin-bottom: 40px;
+}
+h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1a202c;
+}
+
+input[type="checkbox"] {
+  border-radius: 50%;
+}
+
+.senha {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: #2b6cb0;
+}
+
+.senha a {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.senha label {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  display: inline;
+}
+
+.E {
+  width: 100%;
+  background-color: #04c35c;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.E:hover {
+  background-color: #019144;
+}
+
+.LG {
+  cursor: pointer;
+  width: 100%;
+  background-color: #000;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.LG::before {
+  position: absolute;
+  content: url(./g.svg);
+  margin-left: -25px;
+}
+
+.main-content p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+@media (max-width: 800px) {
+  main {
+    justify-content: center;
+  }
+  .main-img {
+    display: none;
+  }
+}
