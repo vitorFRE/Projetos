@@ -1,0 +1,120 @@
+@import url(./reset.css);
+
+/* Header */
+
+header {
+  animation: mainAnime 2s forwards;
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-social {
+  display: flex;
+  gap: 30px;
+}
+
+/* Main content */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  animation: mainAnime 2s forwards;
+}
+
+main h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+main h1 {
+  font-size: 4.25rem;
+  font-weight: 900;
+  line-height: 109%;
+}
+
+main p {
+  margin: 25px 0 40px 0;
+  max-width: 44ch;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 10px 30px 10px 60px;
+  transform: skew(-24deg);
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.b1 {
+  background-color: #658e76;
+}
+
+.b1 span::before {
+  position: absolute;
+  content: url(./img/play.svg);
+  left: -25px;
+  top: 2px;
+}
+
+.b2 {
+  padding: 10px 30px;
+  margin-left: 15px;
+  border: 2px solid #658e76;
+}
+
+.b2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  background: #658e76;
+  transition: all 0.7s;
+}
+
+.b2:hover::before {
+  right: 0;
+}
+
+button span {
+  transform: skew(24deg);
+  display: inline-block;
+}
+
+.t {
+  position: absolute;
+  right: 180px;
+  animation: fantasminha 6s forwards;
+}
+
+@media (max-width: 900px) {
+  .main-img img {
+    width: 200px;
+  }
+  .t {
+    right: 220px;
+  }
+  main {
+    flex-direction: column-reverse;
+  }
+  .b2 {
+    display: none;
+  }
+  .b1 {
+    margin-bottom: 50px;
+  }
+}
