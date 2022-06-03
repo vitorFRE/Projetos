@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap");
+
 /* Reset */
 body {
   margin: 0px;
   color: #f9f9f9;
+  background: rgba(0, 0, 0, 0.7) url(../img/loki-fundo.png) no-repeat center
+    center fixed;
+  background-size: cover;
+  background-blend-mode: darken;
 }
 
 ul {
