@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+/* Reset */
+body {
+  margin: 0px;
+  color: #f9f9f9;
+  background: url(../img/bg.png) no-repeat center center fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h3,
+h4,
+p,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes mainAnime {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -120px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

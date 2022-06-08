@@ -1,0 +1,46 @@
+@import url(./reset.css);
+
+/* header */
+header h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header ul {
+  margin: 40px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* main */
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+main h1 {
+  margin: 150px 0 50px 0;
+  font-size: 56px;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.1rem #fff;
+}
+
+.agentes {
+  display: flex;
+  gap: 20px;
+}
+
+main ul p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ff4656;
+  text-align: center;
+}
+
+.redes {
+  display: flex;
+  margin-top: 200px;
+  gap: 40px;
+}
